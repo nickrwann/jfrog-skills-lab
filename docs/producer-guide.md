@@ -208,6 +208,10 @@ publisher usually needs permission to add new versions but not permission to
 rewrite or delete existing ones. A smaller maintainer group can hold the more
 powerful Delete/Overwrite permission for exceptional corrections.
 
+For a complete explanation of identities, groups, project roles, permission
+targets, maintainers, CI publishers, tokens, and audit records, see
+[Authentication, RBAC, and maintainership](authentication-and-rbac.md).
+
 ## Authentication
 
 Authentication is how Artifactory knows which human or automated process is
@@ -241,6 +245,10 @@ A personal identity makes it clear which person performed an interactive
 release. A service identity makes automated releases traceable to a particular
 pipeline rather than to whichever developer originally configured it. Tokens
 should be revocable and limited in scope and lifetime where practical.
+
+The detailed authentication guide includes end-to-end examples for a solo
+producer, a team, and an automated release pipeline:
+[Authentication, RBAC, and maintainership](authentication-and-rbac.md).
 
 ## Signing and scanning
 

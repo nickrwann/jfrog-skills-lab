@@ -46,4 +46,5 @@ stored skills.
 - [JFrog agent commands](https://docs.jfrog.com/artifactory/docs/agent-commands)
 - [Artifactory Docker installation](https://docs.jfrog.com/installation/docs/docker)
 - [Producer guide](docs/producer-guide.md)
+- [Authentication, RBAC, and maintainership](docs/authentication-and-rbac.md)
 - [Consumer guide](docs/consumer-guide.md)
