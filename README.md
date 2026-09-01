@@ -8,8 +8,9 @@ repositories, including publishing and installing agent skills locally.
 This lab uses the official Artifactory Pro image with its bundled database.
 It is intended for evaluation only.
 
-1. Make Docker available inside WSL. With Docker Desktop, enable this distro
-   under **Settings > Resources > WSL Integration**.
+1. Install Docker Engine and the Docker Compose plugin inside WSL. This lab
+   uses the native Linux daemon managed by systemd; Docker Desktop is not
+   required.
 2. Start Artifactory:
 
    ```bash
@@ -44,4 +45,5 @@ stored skills.
 - [JFrog Skills CLI reference](https://docs.jfrog.com/artifactory/docs/jf-skills)
 - [JFrog agent commands](https://docs.jfrog.com/artifactory/docs/agent-commands)
 - [Artifactory Docker installation](https://docs.jfrog.com/installation/docs/docker)
-- [Architecture and lifecycle notes](docs/skills-lifecycle.md)
+- [Producer guide](docs/producer-guide.md)
+- [Consumer guide](docs/consumer-guide.md)
